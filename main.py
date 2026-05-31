@@ -116,5 +116,5 @@ def deleteproduct(id:int,db: Session = Depends(get_db)):
         db.delete(db_cheack) 
         db.commit() 
     else:
-       return "not product exist"
+       return "not product exisxxt"
         
